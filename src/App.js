@@ -1,23 +1,23 @@
 import React from "react";
-// import Formlist from "./components/Formlist";
+import Formlist from "./components/Formlist";
 import "./App.css";
 import Picture from "./components/Picture";
-// import Project1 from "./components/Project1";
-// import Text from "./components/Text";
+import Project1 from "./components/Project1";
+import Text from "./components/Text";
 import Sdata from "./components/Sdata";
-// import P1data from "./components/P1data";
-// import Accordian from "./Project2/Accordian";
-// import Todo from "./Project3/Todo";
+import P1data from "./components/P1data";
+import Accordian from "./Project2/Accordian";
+import Todo from "./Project3/Todo";
 
 function App() {
   return (
     <>
-      {/* <Text/> */}
+      <Text />
       <Picture {...Sdata} />
-      {/* <Project1 Name={P1data} /> */}
-      {/* <Formlist/> */}
-      {/* <Accordian /> */}
-      {/* <Todo /> */}
+      <Project1 Name={P1data} />
+      <Formlist />
+      <Accordian />
+      <Todo />
     </>
   );
 }

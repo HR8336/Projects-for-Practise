@@ -3,10 +3,9 @@ import { useState } from "react";
 import Sdata from "./Sdata";
 import Nutton from "./Nutton";
 function Picture() {
-  const [data, setdata] = useState(Sdata);
   return (
     <>
-      {data.map((ele) => {
+      {Sdata.map((ele) => {
         return (
           <>
             <div className="na">

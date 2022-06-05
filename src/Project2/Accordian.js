@@ -3,12 +3,12 @@ import Data from "./Data";
 import Myaccordian from "./Myaccordian";
 
 function Accordian() {
-  const [accdata, setAccdata] = useState(Data);
+  // const [accdata, setAccdata] = useState(Data);
 
   return (
     <>
       <section>
-        {accdata.map((elem) => {
+        {Data.map((elem) => {
           return <Myaccordian key={elem.id} {...elem} />;
         })}
       </section>
