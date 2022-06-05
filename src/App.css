@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+.na{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+
+}
+.message{
+  padding-left: 10px;
+}
+
+.reverseBtn {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.loopbtn {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.likeBtn {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.image4 {
+  cursor: pointer;
+}
+.image{
+  height: 100px;
+  width: 100px ;
+}
+.acc_title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
